@@ -9,13 +9,15 @@ import { AppComponent } from './app.component';
 import {AppRoutingModule } from './app-route.component'
 import {MeComponent } from './me.component'
 import {RoutesComponent } from './routes.component'
+import {SetupComponent } from './setup.component'
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MeComponent,
-    RoutesComponent
+    RoutesComponent,
+    SetupComponent
   ],
   imports: [
     BrowserModule,

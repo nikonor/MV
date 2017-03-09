@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class MeComponent {
   name = 'User37';
+  email = 'user37@gmail.com';
 }
